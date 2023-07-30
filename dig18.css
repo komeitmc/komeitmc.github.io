@@ -1,0 +1,32 @@
+/* .pageContainer{
+    position: relative;
+        border: 2px solid #1b0303;
+ */
+.box {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    /* border: 2px solid #1b0303; */
+    /* https://www.notion.so/CSS-7-7c58ac4b69b44e128a2a9bbcd4141475?pvs=4#6cd23fd5b52f46f8adc94a6545cd434e */
+}
+
+.nextpage {
+/* https://www.notion.so/CSS-div-3-56bcc62967d5476d86aeee4c2a62d7e3?pvs=4#b2677ae9e03140c6a8abfeb1013e679b */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 3em;
+    text-decoration: none;
+}
+#topTitle {
+    text-align: center;
+    font-size: 3em;
+}
+
+#topSubtilte{
+    text-align: right;
+
+}
