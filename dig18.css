@@ -68,3 +68,10 @@ h2 {
     text-align: right;
 
 }
+
+#nextactionImg {
+    visibility: hidden; 
+}
+#nextactionStr {
+    visibility: hidden; 
+}
