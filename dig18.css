@@ -1,9 +1,15 @@
-/* .pageContainer{
-    position: relative;
-        border: 2px solid #1b0303;
- */
+code {
+    display: inline-block;
+    padding: 0.1em 0.25em; /* 文字周りの余白 */
+    color: #444; /* 文字色 */
+    background-color: #e7edf3; /* 背景色 */
+    border-radius: 3px; /* 角丸 */
+    border: solid 1px #d6dde4; /* 枠線 */
+  }
+h2 {
+}
 .box {
-    width: 70%;
+    width: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -11,6 +17,38 @@
     -webkit- transform: translateY(-50%) translateX(-50%);
     /* border: 2px solid #1b0303; */
     /* https://www.notion.so/CSS-7-7c58ac4b69b44e128a2a9bbcd4141475?pvs=4#6cd23fd5b52f46f8adc94a6545cd434e */
+}
+.image{
+    width: 100%;
+    right: 5%;
+    }
+.box2 {
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    border: solid 1px #d6dde4; /* 枠線 */
+}
+
+.pagetitle {
+    position: absolute;
+    top:  5%;
+    left: 5%;
+    font-size: 3.2em;
+}
+.pagesubtitle {
+    position: absolute;
+    /* position: relative ; */
+    font-size: 2.5em;
+    top:  15%;
+    left: 10%;
+}
+
+.dotlist {
+    position: relative;
+    font-size: 2em;
+    left: 3em;
 }
 
 .nextpage {

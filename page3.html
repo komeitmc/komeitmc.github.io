@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>18th DIG college Report</title>
+  <link rel="stylesheet" href="dig18.css">
+</head>
+<body>
+  <h1  class="pagetitle">進め方の工夫：一つ一つの機能を確認</h1>
+  <div class="box">
+      <ul class="dotlist">
+        <li>ボタンクリックイベントの取得テスト</li>
+        <!-- https://www.notion.so/code-HTML-37375a81094e465e9d6bc3b4f3bf5c35?pvs=4 -->
+          <pre><code>
+const btnElement = document.getElementsByClassName("btn")[0];
+btnElement.addEventListener('click',testClick);
+function testClick(){
+    console.log("Click Now");
+}
+        </code></pre>
+      <li>ワニを表示する</li>
+      <li>入力ボックスからの取り出し</li>
+      <li>誤入力対応</li>
+      </ul>
+
+</div>
+  <a href="page4.html" class="nextpage">▷</a>
+</body>
+<script src="dig18.js"></script>
+
+</html>
