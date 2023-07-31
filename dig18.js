@@ -1,3 +1,4 @@
+console.log("page3.js");
 // ボタンとなるエレメント取得
 const btnElement = document.getElementById("btnBox");
 //表示するエレメント
@@ -15,3 +16,4 @@ function dispNext() {
     dispElements[i].style.visibility = "visible";
   }
 }
+

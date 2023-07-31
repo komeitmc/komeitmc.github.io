@@ -10,9 +10,9 @@
   <h1  class="pagetitle">進め方の工夫：一つ一つの機能を確認</h1>
   <div class="box">
       <ul class="dotlist">
-        <li>ボタンクリックイベントの取得テスト</li>
         <!-- https://www.notion.so/code-HTML-37375a81094e465e9d6bc3b4f3bf5c35?pvs=4 -->
-          <pre><code>
+        <li>ボタンクリックイベントの取得テスト</li>
+          <pre><code id="code1">
 const btnElement = document.getElementsByClassName("btn")[0];
 btnElement.addEventListener('click',testClick);
 function testClick(){
@@ -20,13 +20,41 @@ function testClick(){
 }
         </code></pre>
       <li>ワニを表示する</li>
-      <li>入力ボックスからの取り出し</li>
-      <li>誤入力対応</li>
-      </ul>
+      <pre><code id="code2">
+const element = document.getElementsByClassName("blueSquare")[0];
+console.log(element);
+let createElement = document.createElement('p');
+createElement.textContent = '🐊🐊🐊🐊';
+element.appendChild(createElement);                </code></pre>
+              <li>入力ボックスからの取り出し</li>
+              <pre><code id="code3">
+const txtboxElement = document.getElementById("inBox");
+btnElement.addEventListener('click',getTextbox);
+function getTextbox(){
+    console.log(txtboxElement.value);
+}
+                                       </code></pre>
+                      <li>誤入力対応</li>
+                      <pre><code id="code4">
+function writeWani() {
+  const waniNum = parseInt(txtboxElement.value);
+  let waniElemet = document.createElement('p');
+  let waniChar = "";
+  let i = 0; //入力がゼロの場合を考慮してWhileで実行
+  while(i < waniNum) {
+      waniChar += '🐊';
+      i++;
+  }
+  waniTxtElement.textContent = waniChar;
+  blueboxElement.appendChild(waniTxtElement);
+}
+                                                    </code></pre>
+                              </ul>
 
 </div>
   <a href="page4.html" class="nextpage">▷</a>
 </body>
+<script src="page3.js"></script>
 <script src="dig18.js"></script>
 
 </html>

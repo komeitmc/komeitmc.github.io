@@ -7,8 +7,26 @@ code {
     border: solid 1px #d6dde4; /* 枠線 */
   }
 h2 {
+    font-size: 2em;
+    line-height: 1em;
+    padding-bottom: 0em;
+}
+h3 {
+    font-size: 1.5em;
 }
 .box {
+ 
+    width: 90%;
+    height: 85%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform:  translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    /* border: 2px solid #1b0303; */
+    /* https://www.notion.so/CSS-7-7c58ac4b69b44e128a2a9bbcd4141475?pvs=4#6cd23fd5b52f46f8adc94a6545cd434e */
+}
+.titleBox {
     width: 90%;
     position: absolute;
     top: 50%;
@@ -28,7 +46,7 @@ h2 {
     position: absolute;
     top: 5%;
     right: 5%;
-    border: solid 1px #d6dde4; /* 枠線 */
+    /* border: solid 1px #d6dde4; 枠線 */
 }
 
 .pagetitle {
@@ -46,9 +64,15 @@ h2 {
 }
 
 .dotlist {
+    line-height: 1em;
     position: relative;
     font-size: 2em;
     left: 3em;
+}
+.dotlist2 {
+    position: relative;
+    font-size: 1.5em;
+    left: 1em;
 }
 
 .nextpage {
@@ -59,10 +83,67 @@ h2 {
     font-size: 3em;
     text-decoration: none;
 }
+.inbox {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    bottom: 0;
+    background-color: #f53838;
+
+}
+.inboxLeft {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    position: absolute;
+    width: 33%;
+    height: 70%;
+    bottom: 0;
+    left: 0;
+    /* background-color: #38f561; */
+
+}
+.inboxMiddle{
+    /* border: 2px solid #1b0303; */
+    position: absolute;
+    width: 33%;
+    height: 70%;
+    bottom: 0;
+    left: 38%;
+    /* background-color: #f56738; */
+ 
+}
+.inboxRight {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    position: absolute;
+    width: 34%;
+    height: 70%;
+    bottom: 0;
+    right: 0;
+    /* background-color: #8a38f5; */
+
+}
+
+.fig{
+    /* display: flex; */
+    width: 100%;
+    
+}
+.boxFig{
+    width: 80%;
+    margin: auto;
+}
+
 #topTitle {
-    text-align: center;
+    margin: auto;
     font-size: 3em;
 }
+
 
 #topSubtilte{
     text-align: right;
@@ -74,4 +155,16 @@ h2 {
 }
 #nextactionStr {
     visibility: hidden; 
+}
+#code1 {
+    display: none;
+}
+#code2 {
+    display: none;
+}
+#code3 {
+    display: none;
+}
+#code4 {
+    display: none;
 }
