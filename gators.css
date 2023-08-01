@@ -1,0 +1,29 @@
+.greenSquare {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    /* margin: 0 auto; */
+}
+
+.blueSquare {
+    width: 200px;
+    /* height: 200px; */
+    background-color: blue;
+    margin: 0 auto;
+}
+
+#waniExplain {
+    position: absolute;
+    left: 20%;
+    top: 25%;
+  
+}
+#wanipagebox{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    visibility: hidden; 
+}

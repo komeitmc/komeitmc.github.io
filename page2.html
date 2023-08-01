@@ -5,20 +5,41 @@
   <meta charset="utf-8">
   <title>18th DIG college Report</title>
   <link rel="stylesheet" href="dig18.css">
+  <link rel="stylesheet" href="gators.css">
+
 </head>
 <body>
-  <h1  class="pagetitle">対象の演習と選んだワケ</h1>
+  <h1  class="pagetitle">演習の紹介と選んだワケ</h1>
   <h2 class="pagesubtitle">演習：DOM イベント  - アクティビティ「アリゲーター」</h2>
-  <div class="titleBox">
+  <div class="greenSquare">
+    <button class="btn"
+        type="button">
+        ワニ放出！
+    </button>
+    <input type="text" id="inBox" name="inBoxName" required
+    minlength="1" maxlength="8" size="10">
+    <div class="blueSquare"></div>
+  </div>
+  <div id="waniExplain">
+    <h3>　　　　演習内容</h3>
+    <ul class="dotlist">
+      「ワニ放出！」ボタンを押すと、<br>
+      入力ボックスに入れた数だけワニが出現する。
+    </ul>
+  </div>
+
+  <div id = "wanipagebox">
       <!-- <h2 class="pagesubtitle">演習：DOM イベント  - アクティビティ「アリゲーター」</h2> -->
+      <h3>　　　特に力を入れた理由</h3>
       <ul class="dotlist">
-        <li>今まで勉強していなかったことに取り組みたい</li>
-        <li>Javascriptらしい＝ブラウザ組み込み　で出来ること</li>
-        <li>Javascriptを活用したアプリ開発に将来トライしたい</li>
+        <li>今まで勉強していなかったことに取り組みたい = Webプログラミングの経験なし</li>
+        <li>Javascriptらしいものをつくりたい　＝　ブラウザ組み込み　で出来ること</li>
+        <li>Javascriptを活用したアプリを開発したい。（プライベート）</li>
       </ul>
   </div>
   <a href="page3.html" class="nextpage">▷</a>
 </body>
 <script src="dig18.js"></script>
+<script src="gators.js"></script>
 
 </html>

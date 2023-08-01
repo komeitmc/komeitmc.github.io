@@ -94,50 +94,13 @@ h3 {
     background-color: #f53838;
 
 }
-.inboxLeft {
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
+.fig4-2{
     position: absolute;
-    width: 33%;
-    height: 70%;
-    bottom: 0;
-    left: 0;
-    /* background-color: #38f561; */
-
-}
-.inboxMiddle{
-    /* border: 2px solid #1b0303; */
-    position: absolute;
-    width: 33%;
-    height: 70%;
-    bottom: 0;
-    left: 38%;
-    /* background-color: #f56738; */
- 
-}
-.inboxRight {
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-    position: absolute;
-    width: 34%;
-    height: 70%;
-    bottom: 0;
-    right: 0;
-    /* background-color: #8a38f5; */
-
+    width: 70%;
+    left:15%;
+    bottom: 0px;
 }
 
-.fig{
-    /* display: flex; */
-    width: 100%;
-    
-}
-.boxFig{
-    width: 80%;
-    margin: auto;
-}
 
 #topTitle {
     margin: auto;
